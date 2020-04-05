@@ -4,7 +4,6 @@ const Footer= props => {
     return (
         <footer>
             <div>
-                Horse
                 <a href="#" class="fa fa-github"></a>
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-linkedin"></a>

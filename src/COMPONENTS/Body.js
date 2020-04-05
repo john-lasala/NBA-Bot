@@ -6,26 +6,33 @@ const Body = props => {
         <body>
             <main>
                 <h1>
-                    Form
+                    Please fill this out if you like big ol, sloppy horsecock.
                 </h1>
                 <h3>
                    <i>Looking for that handsome stallion?</i> 
                 </h3>
                 <section className="info">
-                    <form method="post">
-                        <ul>
-                            <li>
-                                <label for="name">Name:</label>
-                                <input type="text" name="firstname" placeholder="Your name.."></input>
-                            </li>
-                            <li>
-                                <label for="email">Email:</label>
-                                <input type="text" id="fname" name="firstname" placeholder="Email"></input>
-                            </li>
-                            <li class="button">
-                                <button type="submit">Submit</button>
-                            </li>
-                        </ul>
+                    <div>
+                        What is horsecock.io? IF YOU ARE ASKING, THEN THIS ISNT 
+                        THE PLACE FOR YOU! LEAVE!
+                    </div>
+                </section>
+                <br/>
+                <section className="info">
+                    <form action="mailto:johnlalalasala@gmail.com" method="post">
+                    <label for="body">Name:</label>
+                        <input type="text" name="name" placeholder="Your name.."/>
+                        <br/>
+                        <label for="email">Email:</label>
+                        <input required type="text" name="text" placeholder="Email"/>
+                        <br/>
+                        <label for="body">Name:</label>
+                        <input type="text" name="name" placeholder="Your name.."/>
+                        <br/>
+                        <label for="email">Email:</label>
+                        <input required type="text" name="text" placeholder="Email"/>
+                        <br/>
+                        <button type="submit">Submit</button>
                     </form>
                 </section>
             </main>

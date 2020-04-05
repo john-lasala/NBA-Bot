@@ -8,7 +8,6 @@ import Footer from './COMPONENTS/Footer.js';
 function App() {
   return (
     <React.Fragment>
-      <Header/>
       <Body/>
       <Footer/>
     </React.Fragment>

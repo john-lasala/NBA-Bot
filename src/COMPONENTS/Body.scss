@@ -1,9 +1,12 @@
 @import "../variables";
 
 body {
-    background-color: $black;
+    background: linear-gradient(45deg, #8E8EFF 50%, #8B8BFF 50%);
+    background-size: 100%;
     font-size: 28px;
-    color: $white;
+    height: auto;
+    width: 100%;
+    color: $black;
     font-family: 'Montserrat', sans-serif;
 
     h1, h3 {
@@ -12,23 +15,23 @@ body {
         text-align: center;
     }
 
-    section input {
-        width: 40%;
-    }
-
     .info {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 100%;
     }
 
     form {
         margin: 0 auto;
-        width: 500px;
+        width: 50%;
         padding: 1em;
-        border: 1px solid #CCC;
-        border-radius: 1em;
+        border: 1.4px solid $black;
+        border-radius: .5em;
+        border-color: $black;
+        background-color: $white;
+        box-shadow: 2px 4px 10px $black;
+        overflow: hidden;
     }
 
     ul {
@@ -43,14 +46,16 @@ body {
 
     label {
         display: inline-block;
-        width: 20%;
-        text-align: left;
+        width: 16%;
+        text-align: right;
+        padding-bottom: .4em;
+        padding-right: .3em;
     }
 
     input {
         font: 1em 'Montserrat', sans-serif;
-        border: 1px solid #999;
-        width: 12em !important;
+        border: 1px solid #000;
+        width: 50% !important;
     }
 
     input:focus {
@@ -58,6 +63,24 @@ body {
     }
 
     button {
-        font-size: 22px;
+        font-size: 20px;
+    }
+    @media only screen and (max-width: 600px) {
+        body {
+          font-size: 18px;
+        }
+        label {
+            padding-right: 1.2em;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        label {
+            padding-right: 1.6em;
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        label {
+            padding-right: 1.6em;
+        }
     }
 }
