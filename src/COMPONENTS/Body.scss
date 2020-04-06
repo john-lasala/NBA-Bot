@@ -1,25 +1,35 @@
 @import "../variables";
-
+html {
+    height: 100%;
+}
 body {
-    background: linear-gradient(45deg, #8E8EFF 50%, #8B8BFF 50%);
-    background-size: 100%;
-    font-size: 28px;
-    height: auto;
-    width: 100%;
+    background-image: linear-gradient( #a3bded ,#6991c7);
+    font-size: 30px;
     color: $black;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    font-weight: 700;
 
     h1, h3 {
         font-family: 'Montserrat', sans-serif;
         width: 100%;
         text-align: center;
     }
-
     .info {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+    }
+    .infot {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        min-height: 1000px;
     }
 
     form {
@@ -32,6 +42,10 @@ body {
         background-color: $white;
         box-shadow: 2px 4px 10px $black;
         overflow: hidden;
+        background: rgba(255,255,255,0.7);
+        display: inline-block;
+        text-align: center;
+        position: relative;
     }
 
     ul {
@@ -45,17 +59,21 @@ body {
     }
 
     label {
-        display: inline-block;
-        width: 16%;
-        text-align: right;
+        width: 300px;
         padding-bottom: .4em;
-        padding-right: .3em;
+        display: inline-block;
     }
 
     input {
         font: 1em 'Montserrat', sans-serif;
         border: 1px solid #000;
-        width: 50% !important;
+        width: 60% !important;
+        box-shadow: 1px 2px 4px $gray;
+        background: transparent;
+        border-radius: 4px;
+        padding: .5em;
+        margin: .1em;
+        background: rgba(255,255,255,0.6);
     }
 
     input:focus {
@@ -63,24 +81,66 @@ body {
     }
 
     button {
-        font-size: 20px;
+        font-size: 28px;
+        padding: .2em;
+        margin-top: .7em;
+        margin-right: .5em;
+        margin-bottom: -2em;
+        border-radius: 10px;
+        border-color: $black;
+        border-width: thin;;
+        position: relative;
+        background:#a3bded;
     }
-    @media only screen and (max-width: 600px) {
+
+    form span label {
+        text-align: right;
+        padding-right: .2em;
+        width: 200px
+    }
+    label {
+        text-align: right;
+        margin-right: 12px;
+        width: 150px !important;
+    }
+    form div {
+        text-align: center;
+    }
+    form div {
+        width: 100%;
+    }
+    input {
+        margin-right: 12px !important;
+    }
+    button {
+        color: $white !important;
+        background-color: #6991c7;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 12px;
+        border-radius: 4px;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+        font-size: 24px;
+    }
+    button:hover {
+        background: #434343;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+    }
+
+    @media only screen and (max-height: 800px) {
         body {
-          font-size: 18px;
-        }
-        label {
-            padding-right: 1.2em;
+            font-size: 24px;
         }
     }
-    @media only screen and (max-width: 800px) {
-        label {
-            padding-right: 1.6em;
-        }
-    }
-    @media only screen and (max-width: 1200px) {
-        label {
-            padding-right: 1.6em;
+    @media only screen and (max-height: 400px) {
+        body {
+            font-size: 20px;
         }
     }
 }

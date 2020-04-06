@@ -3,40 +3,40 @@ import React from 'react';
 
 const Body = props => {
     return (
+        <html>
         <body>
-            <main>
-                <h1>
-                    Please fill this out if you like big ol, sloppy horsecock.
-                </h1>
-                <h3>
-                   <i>Looking for that handsome stallion?</i> 
-                </h3>
-                <section className="info">
-                    <div>
-                        What is horsecock.io? IF YOU ARE ASKING, THEN THIS ISNT 
-                        THE PLACE FOR YOU! LEAVE!
-                    </div>
-                </section>
-                <br/>
-                <section className="info">
-                    <form action="mailto:johnlalalasala@gmail.com" method="post">
-                    <label for="body">Name:</label>
-                        <input type="text" name="name" placeholder="Your name.."/>
-                        <br/>
-                        <label for="email">Email:</label>
-                        <input required type="text" name="text" placeholder="Email"/>
-                        <br/>
+            <h1>
+                Title Here
+            </h1>
+            <h3>
+                <i>Heading</i> 
+            </h3>
+
+            <br/>
+            <section className="info">
+                <form action="mailto:johnlalalasala@gmail.com" method="post">
+                    <span>
                         <label for="body">Name:</label>
-                        <input type="text" name="name" placeholder="Your name.."/>
-                        <br/>
+                        <input type="text" name="name" placeholder="Your name"/>
+                    </span><br/>
+                    <span>
                         <label for="email">Email:</label>
                         <input required type="text" name="text" placeholder="Email"/>
-                        <br/>
-                        <button type="submit">Submit</button>
-                    </form>
-                </section>
-            </main>
+                    </span><br/>
+                    <span>
+                        <label for="body">Quantity:</label>
+                        <input type="number" name="name" placeholder="Max: 50"/>
+                    </span><br/>
+                    <span>
+                        <label for="email">Date:</label>
+                    <input required type="date" name="text" placeholder="(012)-345-6789"/>
+                    </span><br/>
+                    <button type="submit">Submit</button>
+                    <button type="Reset">Reset</button>
+                </form> 
+            </section>
         </body>
+        </html>
     );
 };
 

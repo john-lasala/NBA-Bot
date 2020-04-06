@@ -4,9 +4,9 @@ const Footer= props => {
     return (
         <footer>
             <div>
-                <a href="#" class="fa fa-github"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://github.com/john-lasala" target="_blank" class="fa fa-github"></a>
+                <a href="https://www.linkedin.com/in/johnblasala/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="mailto:johnblasala@gmail.com" class="fa fa-envelope"></a>
             </div>
         </footer>
     );

@@ -2,7 +2,9 @@
 
 footer {
     background-color: #8B8BFF;
-    background-color: #8B8BFF;
+    background-color: #c2e9fb;
+    background-color: #6991c7;
+    background: rgba(163,189,234,0.7);
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -12,9 +14,9 @@ footer {
     font-size: 32px;
     color: $black;
     font-family: 'Montserrat', sans-serif;
-    -webkit-box-shadow: 0px -3px 3px 0px $black;
-    -moz-box-shadow: 0px -3px 3px 0px $black;
-    box-shadow: 0px -3px 3px 0px $black;
+    -webkit-box-shadow: 0px -2px 2px 0px $black;
+    -moz-box-shadow: 0px -2px 2px 0px $black;
+    box-shadow: 0px -2px 2px 0px $black;
 
     div a {
         color: $black;
