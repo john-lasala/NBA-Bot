@@ -3,21 +3,32 @@ html {
     height: 100%;
 }
 body {
-    background-image: linear-gradient( #a3bded ,#6991c7);
+  //  background-image: linear-gradient( #000030, $navy);
+    padding-top: 1em;
     font-size: 30px;
-    color: $black;
-    font-family: 'Montserrat', sans-serif;
+    color: $white;
+    text-shadow: 1px 1px $gray;
+    font-family: 'Questrial', sans-serif;
     margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: overlay;
-    font-weight: 700;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-blend-mode: overlay;
+    // background-color:rgba(163,189,234,0.7);
+    // background-color: #8AA5E5;
+    // background: #D2DFFF;
+    background-color: #B0B2B8
+    ;
+    font-weight: 400;
 
     h1, h3 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Questrial', sans-serif;
         width: 100%;
         text-align: center;
+        font-weight: 400;
+        font-size: 60px;
+        margin: 0
     }
+
     .info {
         text-align: center;
         margin-left: auto;
@@ -36,16 +47,21 @@ body {
         margin: 0 auto;
         width: 50%;
         padding: 1em;
-        border: 1.4px solid $black;
-        border-radius: .5em;
-        border-color: $black;
+      //  border: 1.4px solid $black;
+      //  border-radius: .5em;
+    //    border-color: $black;
         background-color: $white;
         box-shadow: 2px 4px 10px $black;
         overflow: hidden;
-        background: rgba(255,255,255,0.7);
+        
+        background-color: #C5D2F2;
         display: inline-block;
         text-align: center;
         position: relative;
+        background-color:rgba(163,189,234,0.9);
+        color: white;
+        background-color: #BDC7DF;
+        background: #80838E;
     }
 
     ul {
@@ -63,17 +79,26 @@ body {
         padding-bottom: .4em;
         display: inline-block;
     }
-
+    ::placeholder {
+        color: $black;
+        opacity: 1;
+    }
     input {
-        font: 1em 'Montserrat', sans-serif;
-        border: 1px solid #000;
+        font: 1em 'Questrial', sans-serif;
+      //  border: 1px solid #000;
         width: 60% !important;
-        box-shadow: 1px 2px 4px $gray;
         background: transparent;
         border-radius: 4px;
         padding: .5em;
         margin: .1em;
-        background: rgba(255,255,255,0.6);
+        background: rgba(255,255,255,.6);
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #000000;
+        border: 2px solid black;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
     }
 
     input:focus {
@@ -90,7 +115,7 @@ body {
         border-color: $black;
         border-width: thin;;
         position: relative;
-        background:#a3bded;
+        background: transparent;
     }
 
     form span label {
@@ -113,8 +138,7 @@ body {
         margin-right: 12px !important;
     }
     button {
-        color: $white !important;
-        background-color: #6991c7;
+        color: $black !important;
         text-transform: uppercase;
         text-decoration: none;
         padding: 12px;
@@ -122,23 +146,31 @@ body {
         display: inline-block;
         border: none;
         transition: all 0.4s ease 0s;
+        border-color: $black;
+        border-style: none;
+        border: thin;
         font-size: 24px;
     }
     button:hover {
-        background: #434343;
+        background: $gray;
         letter-spacing: 1px;
         -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
         -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
         box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
         transition: all 0.4s ease 0s;
     }
-
+    textarea:focus, select:focus{
+        color: #80838E;
+    }
+    input[type=number] select:focus{
+        color: #80838E;
+    }
     @media only screen and (max-height: 800px) {
         body {
             font-size: 24px;
         }
     }
-    @media only screen and (max-height: 400px) {
+    @media only screen and (max-height: 00px) {
         body {
             font-size: 20px;
         }
