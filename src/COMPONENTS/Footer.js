@@ -1,13 +1,10 @@
 import "./Footer.scss";
 import React from 'react';
-const Footer= props => {
+const Footer = props => {
     return (
         <footer>
-            <div>
-                <a href="https://github.com/john-lasala" target="_blank" class="fa fa-github"></a>
-                <a href="https://www.linkedin.com/in/johnblasala/" target="_blank" class="fa fa-linkedin"></a>
-                <a href="mailto:johnblasala@gmail.com" class="fa fa-envelope"></a>
-            </div>
+            <span>© 2020. Boston Whaler Boats. All Rights Reserved.</span>
+            <a href="https://www.bostonwhaler.com/"><img src='https://www.logolynx.com/images/logolynx/fb/fbbc0d4294049095ad78512478068949.png'/></a>
         </footer>
     );
 };

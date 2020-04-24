@@ -1,27 +1,14 @@
-@import "../variables";
-
 header {
-    font-family: 'Montserrat', sans-serif;
-    div {
-        text-align: right;
-        line-height: 62px;
-        background-color:$white;
-        height: 60px;
-    }
-    div a {
-        padding: 12px;
-        font-size: 28px;
-        text-decoration: none;
-        color: $white;
-    }
-    div .Logo {
-        float: left;
-        vertical-align: middle;
-        line-height: 37px;
-        align-items: center;
-    }
-    a:hover {
-        background-color: $black;
-        height: fit-content;
-    }
+    max-height: 50px !important;
+.is-primary, .is-success {
+     background-color: hsl(217, 71%, 53%)!important;
+}
+
+.is-primary:hover, .is-success:hover {
+    background-color: hsl(225, 71%, 53%)!important;
+}
+
+img {
+    height: 55px;
+}
 }
