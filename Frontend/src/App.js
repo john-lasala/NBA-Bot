@@ -22,8 +22,8 @@ const App = props => {
             If you have any suggestions, feel free to message me on any of the social media platforms shown below!
         </p>
         <section>
-            <button class="button is-link is-outlined">Add to Discord</button>
-            <button class="button is-link is-outlined">GitHub</button>
+            <button class="button is-link is-outlined" target="_blank">Add to Discord</button>
+            <button class="button is-link is-outlined" target="_blank">GitHub</button>
         </section>
         <h1 class="commands">
             NBA-Bot's Commands
@@ -70,13 +70,13 @@ const App = props => {
         <div class="bottom">
             Connect with me: 
             <span>  
-                <a href="https://twitter.com/JohnLaLaLasala"><i class="fab fa-twitter icons"></i></a>
+                <a href="https://twitter.com/JohnLaLaLasala" target="_blank"><i class="fab fa-twitter icons"></i></a>
             </span>
             <span>
-                <a href="https://www.linkedin.com/in/johnblasala/"><i class="fab fa-linkedin-in icons"></i></a>
+                <a href="https://www.linkedin.com/in/johnblasala/" target="_blank"><i class="fab fa-linkedin-in icons"></i></a>
             </span>
             <span>
-                <a href="https://github.com/john-lasala"><i class="fab fa-github icons"></i></a>
+                <a href="https://github.com/john-lasala" target="_blank"><i class="fab fa-github icons"></i></a>
             </span>
         </div>
     </div>
