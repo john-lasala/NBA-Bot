@@ -1,0 +1,133 @@
+html, body {
+    background: url('dark-paths.png') center center fixed; 
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    left:50%;
+    position:absolute;
+    margin-left:-30%;
+    top:40%;
+    margin-top:-300px;
+    width:65%;
+    height:750px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    overflow: auto;
+    color: black;
+    border-radius:10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: linear-gradient(to bottom, hsl(217, 71%, 53%) 0,hsl(217, 71%, 43%) 100%);
+}
+
+.commands {
+    padding-top: .5em;
+    padding-bottom: 0em;
+}
+.box p {
+    text-align: left;
+}
+
+table, tr, th, td {
+    padding: .5em;
+    font-family: 'Roboto', serif;  
+    border: 2px solid black; 
+}
+
+table {
+    margin: 0 auto;
+    margin-top: .4em;
+}
+
+.fa-twitter {
+    color: hsl(204, 86%, 53%);
+}
+
+.fa-twitter:hover {
+    color: hsl(204, 86%, 45%);
+}
+
+.fa-linkedin-in {
+    color: hsl(217, 71%, 53%);
+}
+
+.fa-linkedin-in:hover {
+    color: hsl(217, 71%, 43%);
+}
+
+.fa-github {
+    color:hsl(0, 0%, 14%);
+}
+
+.fa-github:hover {
+    color:hsl(0, 0%, 0%);
+}
+
+.icons {
+    font-size: 1.4em !important;
+}
+
+.bottom {
+    font-weight: 700;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Roboto', serif;
+    color: black;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom span {
+    padding-right: 1.0em !important;
+    padding-left: .4em;
+}
+
+thead {
+    background-image: linear-gradient(to bottom, hsl(217, 71%, 44%) 0,hsl(217, 71%, 35%) 100%);
+}
+th {
+    color: black !important;
+}
+
+ul {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} 
+
+td {
+    padding-bottom: 0em;
+}
+
+section {
+    padding-top: .7em !important;
+}
+
+section .button {
+    width: 130px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 700;
+    color: hsl(217, 71%, 37%) !important;
+    border-color: hsl(217, 71%, 37%) !important;
+}
+
+section .button:hover {
+    color: white !important;
+    background-color: hsl(217, 71%, 37%) !important;
+}
+
+p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
