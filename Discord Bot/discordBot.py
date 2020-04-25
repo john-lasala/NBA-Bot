@@ -28,17 +28,28 @@ async def on_message(message):
         await message.channel.send(currentStandings(response))
     
     if message.content.lower() == '$pastchampions':
-        await message.channel.send(pastChampions())
+        await message.channel.send('Enter how many years to present')
+        response = await client.wait_for('message')
+        response = str(response.content)
+
+        if response.isdigit():
+            response = int(response)
+            if response > 42:
+                return
+        else:
+            return
+
+        await message.channel.send(pastChampions(response))
 
     if message.content.lower() == '$leagueleaders':
 
         selection_dictionary = {
-            '1' : 'Points Per Game\n',
-            '2' : 'Rebounds Per Game\n',
-            '3' : 'Assists Per Game\n',
-            '4' : 'Steals Per Game\n',
-            '5' : 'Blocks Per Game\n',
-            '6' : 'Free Throw Percentage\n'
+            '1' : '**Points Per Game**\n',
+            '2' : '**Rebounds Per Game**\n',
+            '3' : '**Assists Per Game**\n',
+            '4' : '**Steals Per Game**\n',
+            '5' : '**Blocks Per Game**\n',
+            '6' : '**Free Throw Percentage**\n'
         }
 
         await message.channel.send('Select\n1 -> Points\n2 -> Rebounds\n3 -> Assists\n4 -> Steals\n5 -> Blocks')
@@ -60,4 +71,4 @@ async def on_message(message):
         else:
             return
         
-client.run('NzAyMDIxNTY0NTM5MDc2NjE5.Xp6ASA.tE9rjQttSGkkDI_rFmD4J_RlF4A')
+client.run('NzAyMDIxNTY0NTM5MDc2NjE5.XqJtrg.yxp76ehupEIxGu5Ea9_w7yiCYn4')

@@ -66,7 +66,7 @@ def currentStandings(response):
     else:
         return
 
-def pastChampions():
+def pastChampions(response):
     URL = 'https://www.basketball-reference.com/playoffs/'
     headers = {'User-Agent': 'Mozilla/5.0'}
     result = requests.get(URL, headers = headers)
@@ -104,22 +104,15 @@ def pastChampions():
     for i in range(1, len(years)):
         years[i-1] = years[i]
 
-    for i in range(10):
+    for i in range(response):
         champs.append(teams[i])
-        # Set up table for all of the past champions
-        tab = ttable.Texttable()
-        headers = ['Team', 'Year']
-        tab.header(headers)
 
-    for row in zip(champs, years):
-        tab.add_row(row)
+    returnString = ''
 
-    chart = tab.draw()
-    filteredChars = ''.join((filter(lambda x: x not in ['=', '+', '-', 'Team', '|'], chart)))
-    index = filteredChars.index('r')
-    re.sub(' +', ' ', filteredChars[(index+3):])
+    for i in range(response):
+        returnString = returnString + str(champs[i]) + ' ' + str(years[i]) + '\n'
 
-    return re.sub(' +', ' ', filteredChars[(index+3):])
+    return returnString
 
 def statsPerGame(selection):
     headers = {'User-Agent': 'Mozilla/5.0'}
