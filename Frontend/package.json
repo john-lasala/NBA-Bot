@@ -8,8 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "homepage": "https://hardcore-gates-7623b7.netlify.app"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
