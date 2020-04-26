@@ -44,7 +44,7 @@ const App = props => {
                     <td>Gives a list of the past ten champions with their respective year</td>
                 </tr>
                 <tr>
-                    <th>$currentStandings</th>
+                    <th>$standings</th>
                     <td>Shows the current year's standings, user chooses conference
                         <ul>
                             <strong>Here are the options:</strong>

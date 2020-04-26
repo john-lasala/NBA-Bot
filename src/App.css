@@ -137,17 +137,27 @@ p {
     and (max-device-width: 480px)
     and (-webkit-min-device-pixel-ratio: 2) {
         h1 {
-            font-size: 16px;
+            font-size: 18px;
         }
         p {
-            font-size: 12px;
+            font-size: 14px;
         }
 
         table, tr, td, th {
-            font-size: 12px;
+            font-size: 14px;
         }
 
         .box {
+            margin: 0;
+            height: auto;
+            top: 1em;
+            left: 0;
             width: 100%;
+        }
+        ul {
+            height: 90px;
+            display: block;
+            flex-direction: column;
+            flex-wrap: wrap;
         }
     }
