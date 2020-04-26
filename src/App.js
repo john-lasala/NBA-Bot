@@ -53,7 +53,7 @@ const App = props => {
                             <ul>
                                 <strong>Here are the options:</strong>
                                 <li><i class="fas fa-basketball-ball" style={buttonStyles}></i> Eastern Conference</li>
-                                <li><i class="fas fa-basketball-ball" style={buttonStyles}></i>Western Conference</li>
+                                <li><i class="fas fa-basketball-ball" style={buttonStyles}></i> Western Conference</li>
                             </ul>
                     </td>
                     </tr>
