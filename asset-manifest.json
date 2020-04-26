@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NBA-Bot/static/css/main.e04c8546.chunk.css",
-    "main.js": "/NBA-Bot/static/js/main.b439b6b1.chunk.js",
-    "main.js.map": "/NBA-Bot/static/js/main.b439b6b1.chunk.js.map",
+    "main.js": "/NBA-Bot/static/js/main.b8ec6be1.chunk.js",
+    "main.js.map": "/NBA-Bot/static/js/main.b8ec6be1.chunk.js.map",
     "runtime-main.js": "/NBA-Bot/static/js/runtime-main.81cc2c6b.js",
     "runtime-main.js.map": "/NBA-Bot/static/js/runtime-main.81cc2c6b.js.map",
     "static/js/2.14421d63.chunk.js": "/NBA-Bot/static/js/2.14421d63.chunk.js",
     "static/js/2.14421d63.chunk.js.map": "/NBA-Bot/static/js/2.14421d63.chunk.js.map",
     "index.html": "/NBA-Bot/index.html",
-    "precache-manifest.e7aaca92cc6ad41889a436a49dbb8a51.js": "/NBA-Bot/precache-manifest.e7aaca92cc6ad41889a436a49dbb8a51.js",
+    "precache-manifest.edf3d825d1664d3cf53e2a57dbd3ba04.js": "/NBA-Bot/precache-manifest.edf3d825d1664d3cf53e2a57dbd3ba04.js",
     "service-worker.js": "/NBA-Bot/service-worker.js",
     "static/css/main.e04c8546.chunk.css.map": "/NBA-Bot/static/css/main.e04c8546.chunk.css.map",
     "static/js/2.14421d63.chunk.js.LICENSE.txt": "/NBA-Bot/static/js/2.14421d63.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.81cc2c6b.js",
     "static/js/2.14421d63.chunk.js",
     "static/css/main.e04c8546.chunk.css",
-    "static/js/main.b439b6b1.chunk.js"
+    "static/js/main.b8ec6be1.chunk.js"
   ]
 }
