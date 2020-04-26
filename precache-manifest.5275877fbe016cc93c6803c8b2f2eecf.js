@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f35d1b09bcbe53861fa100d7c48251a",
+    "revision": "af430b83376f13b92da93a09743391d7",
     "url": "/NBA-Bot/index.html"
   },
   {
-    "revision": "1564139fdaaf50da2112",
+    "revision": "35eea2c84fe370bfa9da",
     "url": "/NBA-Bot/static/css/main.358fedc9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NBA-Bot/static/js/2.14421d63.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1564139fdaaf50da2112",
-    "url": "/NBA-Bot/static/js/main.e240cc62.chunk.js"
+    "revision": "35eea2c84fe370bfa9da",
+    "url": "/NBA-Bot/static/js/main.917ebbb5.chunk.js"
   },
   {
     "revision": "e55f452c30a10588133b",
