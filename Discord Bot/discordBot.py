@@ -12,6 +12,10 @@ async def on_ready():
 async def on_message(message):
     if message.author.bot: return
 
+    if message.content.lower() == '$help':
+        response = '''```$pastChampions: Get the past NBA Champions\n$standings: Get the current Standings\n$leagueleaders: Get the leaders in a statistical category```'''
+        await message.channel.send(response)
+
     if message.content.lower() == '$standings':
         await message.channel.send('1 -> Eastern Conference\n2 -> Western Conference\n')
         
@@ -71,4 +75,4 @@ async def on_message(message):
         else:
             return
         
-client.run(key)
+client.run('NzAyMDIxNTY0NTM5MDc2NjE5.XqXyEA.Vg0pdSJcpiq7Ch2k3sAPJq1lm0Q')
