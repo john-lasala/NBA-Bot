@@ -146,4 +146,8 @@ p {
         table, tr, td, th {
             font-size: 12px;
         }
+
+        .box {
+            width: 100%;
+        }
     }
