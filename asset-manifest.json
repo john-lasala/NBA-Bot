@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NBA-Bot/static/css/main.358fedc9.chunk.css",
+    "main.js": "/NBA-Bot/static/js/main.e19729e3.chunk.js",
+    "main.js.map": "/NBA-Bot/static/js/main.e19729e3.chunk.js.map",
+    "runtime-main.js": "/NBA-Bot/static/js/runtime-main.81cc2c6b.js",
+    "runtime-main.js.map": "/NBA-Bot/static/js/runtime-main.81cc2c6b.js.map",
+    "static/js/2.14421d63.chunk.js": "/NBA-Bot/static/js/2.14421d63.chunk.js",
+    "static/js/2.14421d63.chunk.js.map": "/NBA-Bot/static/js/2.14421d63.chunk.js.map",
+    "index.html": "/NBA-Bot/index.html",
+    "precache-manifest.a8ec6b285fd02be83c30b1d88611e0fb.js": "/NBA-Bot/precache-manifest.a8ec6b285fd02be83c30b1d88611e0fb.js",
+    "service-worker.js": "/NBA-Bot/service-worker.js",
+    "static/css/main.358fedc9.chunk.css.map": "/NBA-Bot/static/css/main.358fedc9.chunk.css.map",
+    "static/js/2.14421d63.chunk.js.LICENSE.txt": "/NBA-Bot/static/js/2.14421d63.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/NBA-Bot/static/media/dark-paths.7d917551.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81cc2c6b.js",
+    "static/js/2.14421d63.chunk.js",
+    "static/css/main.358fedc9.chunk.css",
+    "static/js/main.e19729e3.chunk.js"
+  ]
+}
