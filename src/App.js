@@ -22,8 +22,11 @@ const App = props => {
             If you have any suggestions, feel free to message me on any of the social media platforms shown below!
         </p>
         <section>
-            <button class="button is-link is-outlined" target="_blank">Add to Discord</button>
+            <a href="https://discordapp.com/oauth2/authorize?client_id=702021564539076619&amp;scope=bot&amp;permissions=8">
+            <button class="button is-link is-outlined" target="_blank">Add to Discord</button></a>
+            <a href="https://github.com/john-lasala/NBA-Bot">
             <button class="button is-link is-outlined" target="_blank">GitHub</button>
+            </a>
         </section>
         <h1 class="commands">
             NBA-Bot's Commands
