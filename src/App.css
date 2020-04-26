@@ -52,7 +52,7 @@ th {
 
 ul {
     height: 90px;
-    display: contents;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 } 
