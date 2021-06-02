@@ -82,7 +82,7 @@ texttable==1.6.2
 tqdm==4.11.2
 Twisted==17.9.0
 typing-extensions==3.7.4.2
-urllib3==1.25.8
+urllib3==1.26.5
 webdriver-manager==2.3.0
 webencodings==0.5
 websockets==8.1
